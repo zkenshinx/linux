@@ -291,6 +291,12 @@ config SAMPLE_CGROUP
 	help
 	  Build samples that demonstrate the usage of the cgroup API.
 
+config SAMPLE_HELLO_WORLD
+	bool "Hello world linux kernel module"
+	default y
+	help
+	  Hello world module for cloudlinux
+
 source "samples/rust/Kconfig"
 
 endif # SAMPLES
